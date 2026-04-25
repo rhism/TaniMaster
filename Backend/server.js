@@ -17,7 +17,7 @@ const hasilPanenRoutes = require('./routes/hasilPanenRoutes');
 const app = express();
 
 app.use(cors({
-  origin: true,
+  origin: ['https://tanimaster.vercel.app', 'http://localhost:5000'],
   methods: 'GET,POST,PUT,PATCH,DELETE',
   allowedHeaders: 'Content-Type,Authorization',
   credentials: true
