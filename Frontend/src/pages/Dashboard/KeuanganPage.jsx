@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../../config/axiosInstance";
 import LayoutKeuangan from "../../components/Layout/LayoutKeuangan";
 import HeaderKeuangan from "../../components/ComponentKeuangan/HeaderKeuangan";
 import RiwayatKeuangan from "../../components/ComponentKeuangan/RiwayatKeuangan";

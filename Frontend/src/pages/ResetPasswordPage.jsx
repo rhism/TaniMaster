@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import axios from 'axios';
+import axios from '../config/axiosInstance';
 import logo from '../assets/images/tanimasterlogo.svg';
 
 const ResetPasswordPage = () => {

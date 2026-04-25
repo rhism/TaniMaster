@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../../config/axiosInstance";
 import LayoutPengaturan from "../../components/Layout/LayoutPengaturan";
 import { FaUser, FaLanguage, FaPlug, FaCreditCard, FaCog, FaCheck, FaLock } from "react-icons/fa";
 import { useTheme } from "../../context/ThemeContext";

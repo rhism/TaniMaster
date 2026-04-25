@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../../config/axiosInstance";
 import { jsPDF } from "jspdf";
 import "jspdf-autotable";
 import { FaPlus, FaEdit, FaTrash, FaFilePdf, FaSeedling } from "react-icons/fa";

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import axios from 'axios';
+import axios from '../config/axiosInstance';
 import { GoogleLogin } from '@react-oauth/google';
 import backgroundImage from '../assets/images/cabai.jpg';
 import logo from '../assets/images/tanimasterlogo.svg';
@@ -37,7 +37,7 @@ const AuthPage = () => {
 
   const storeToken = (token) => {
     localStorage.setItem('tanimaster-token', token);
-    axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+    
   };
 
   const handleLogin = async (e) => {
